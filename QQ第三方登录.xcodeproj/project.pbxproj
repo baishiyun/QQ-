@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0448391B1B158CDF00E6AA0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448391A1B158CDF00E6AA0C /* main.m */; };
+		0448391E1B158CDF00E6AA0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0448391D1B158CDF00E6AA0C /* AppDelegate.m */; };
+		044839211B158CDF00E6AA0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044839201B158CDF00E6AA0C /* ViewController.m */; };
+		044839241B158CDF00E6AA0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044839221B158CDF00E6AA0C /* Main.storyboard */; };
+		044839261B158CDF00E6AA0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044839251B158CDF00E6AA0C /* Images.xcassets */; };
+		044839291B158CDF00E6AA0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044839271B158CDF00E6AA0C /* LaunchScreen.xib */; };
+		044839351B158CDF00E6AA0C /* QQ_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044839341B158CDF00E6AA0C /* QQ_____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0448392F1B158CDF00E6AA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0448390D1B158CDF00E6AA0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044839141B158CDF00E6AA0C;
+			remoteInfo = "QQ第三方登录";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044839151B158CDF00E6AA0C /* QQ第三方登录.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QQ第三方登录.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044839191B158CDF00E6AA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0448391A1B158CDF00E6AA0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0448391C1B158CDF00E6AA0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0448391D1B158CDF00E6AA0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0448391F1B158CDF00E6AA0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044839201B158CDF00E6AA0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044839231B158CDF00E6AA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044839251B158CDF00E6AA0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		044839281B158CDF00E6AA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0448392E1B158CDF00E6AA0C /* QQ第三方登录Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ第三方登录Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044839331B158CDF00E6AA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044839341B158CDF00E6AA0C /* QQ_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QQ_____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044839121B158CDF00E6AA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0448392B1B158CDF00E6AA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0448390C1B158CDF00E6AA0C = {
+			isa = PBXGroup;
+			children = (
+				044839171B158CDF00E6AA0C /* QQ第三方登录 */,
+				044839311B158CDF00E6AA0C /* QQ第三方登录Tests */,
+				044839161B158CDF00E6AA0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044839161B158CDF00E6AA0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044839151B158CDF00E6AA0C /* QQ第三方登录.app */,
+				0448392E1B158CDF00E6AA0C /* QQ第三方登录Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044839171B158CDF00E6AA0C /* QQ第三方登录 */ = {
+			isa = PBXGroup;
+			children = (
+				0448391C1B158CDF00E6AA0C /* AppDelegate.h */,
+				0448391D1B158CDF00E6AA0C /* AppDelegate.m */,
+				0448391F1B158CDF00E6AA0C /* ViewController.h */,
+				044839201B158CDF00E6AA0C /* ViewController.m */,
+				044839221B158CDF00E6AA0C /* Main.storyboard */,
+				044839251B158CDF00E6AA0C /* Images.xcassets */,
+				044839271B158CDF00E6AA0C /* LaunchScreen.xib */,
+				044839181B158CDF00E6AA0C /* Supporting Files */,
+			);
+			path = "QQ第三方登录";
+			sourceTree = "<group>";
+		};
+		044839181B158CDF00E6AA0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044839191B158CDF00E6AA0C /* Info.plist */,
+				0448391A1B158CDF00E6AA0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044839311B158CDF00E6AA0C /* QQ第三方登录Tests */ = {
+			isa = PBXGroup;
+			children = (
+				044839341B158CDF00E6AA0C /* QQ_____Tests.m */,
+				044839321B158CDF00E6AA0C /* Supporting Files */,
+			);
+			path = "QQ第三方登录Tests";
+			sourceTree = "<group>";
+		};
+		044839321B158CDF00E6AA0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044839331B158CDF00E6AA0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044839141B158CDF00E6AA0C /* QQ第三方登录 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044839381B158CDF00E6AA0C /* Build configuration list for PBXNativeTarget "QQ第三方登录" */;
+			buildPhases = (
+				044839111B158CDF00E6AA0C /* Sources */,
+				044839121B158CDF00E6AA0C /* Frameworks */,
+				044839131B158CDF00E6AA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QQ第三方登录";
+			productName = "QQ第三方登录";
+			productReference = 044839151B158CDF00E6AA0C /* QQ第三方登录.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0448392D1B158CDF00E6AA0C /* QQ第三方登录Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0448393B1B158CDF00E6AA0C /* Build configuration list for PBXNativeTarget "QQ第三方登录Tests" */;
+			buildPhases = (
+				0448392A1B158CDF00E6AA0C /* Sources */,
+				0448392B1B158CDF00E6AA0C /* Frameworks */,
+				0448392C1B158CDF00E6AA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044839301B158CDF00E6AA0C /* PBXTargetDependency */,
+			);
+			name = "QQ第三方登录Tests";
+			productName = "QQ第三方登录Tests";
+			productReference = 0448392E1B158CDF00E6AA0C /* QQ第三方登录Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0448390D1B158CDF00E6AA0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = BSY;
+				TargetAttributes = {
+					044839141B158CDF00E6AA0C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					0448392D1B158CDF00E6AA0C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 044839141B158CDF00E6AA0C;
+					};
+				};
+			};
+			buildConfigurationList = 044839101B158CDF00E6AA0C /* Build configuration list for PBXProject "QQ第三方登录" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0448390C1B158CDF00E6AA0C;
+			productRefGroup = 044839161B158CDF00E6AA0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044839141B158CDF00E6AA0C /* QQ第三方登录 */,
+				0448392D1B158CDF00E6AA0C /* QQ第三方登录Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044839131B158CDF00E6AA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044839241B158CDF00E6AA0C /* Main.storyboard in Resources */,
+				044839291B158CDF00E6AA0C /* LaunchScreen.xib in Resources */,
+				044839261B158CDF00E6AA0C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0448392C1B158CDF00E6AA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044839111B158CDF00E6AA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044839211B158CDF00E6AA0C /* ViewController.m in Sources */,
+				0448391E1B158CDF00E6AA0C /* AppDelegate.m in Sources */,
+				0448391B1B158CDF00E6AA0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0448392A1B158CDF00E6AA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044839351B158CDF00E6AA0C /* QQ_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044839301B158CDF00E6AA0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044839141B158CDF00E6AA0C /* QQ第三方登录 */;
+			targetProxy = 0448392F1B158CDF00E6AA0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044839221B158CDF00E6AA0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044839231B158CDF00E6AA0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044839271B158CDF00E6AA0C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044839281B158CDF00E6AA0C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044839361B158CDF00E6AA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044839371B158CDF00E6AA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044839391B158CDF00E6AA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "QQ第三方登录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0448393A1B158CDF00E6AA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "QQ第三方登录/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0448393C1B158CDF00E6AA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QQ第三方登录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ第三方登录.app/QQ第三方登录";
+			};
+			name = Debug;
+		};
+		0448393D1B158CDF00E6AA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QQ第三方登录Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ第三方登录.app/QQ第三方登录";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044839101B158CDF00E6AA0C /* Build configuration list for PBXProject "QQ第三方登录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044839361B158CDF00E6AA0C /* Debug */,
+				044839371B158CDF00E6AA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044839381B158CDF00E6AA0C /* Build configuration list for PBXNativeTarget "QQ第三方登录" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044839391B158CDF00E6AA0C /* Debug */,
+				0448393A1B158CDF00E6AA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0448393B1B158CDF00E6AA0C /* Build configuration list for PBXNativeTarget "QQ第三方登录Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0448393C1B158CDF00E6AA0C /* Debug */,
+				0448393D1B158CDF00E6AA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0448390D1B158CDF00E6AA0C /* Project object */;
+}
