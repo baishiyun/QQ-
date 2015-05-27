@@ -14,6 +14,17 @@
 		044839261B158CDF00E6AA0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044839251B158CDF00E6AA0C /* Images.xcassets */; };
 		044839291B158CDF00E6AA0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044839271B158CDF00E6AA0C /* LaunchScreen.xib */; };
 		044839351B158CDF00E6AA0C /* QQ_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044839341B158CDF00E6AA0C /* QQ_____Tests.m */; };
+		0448393F1B158D9100E6AA0C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0448393E1B158D9100E6AA0C /* Security.framework */; };
+		044839421B158DED00E6AA0C /* TencentOpenApi_IOS_Bundle.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 044839401B158DED00E6AA0C /* TencentOpenApi_IOS_Bundle.bundle */; };
+		044839431B158DED00E6AA0C /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044839411B158DED00E6AA0C /* TencentOpenAPI.framework */; };
+		044839451B158E2300E6AA0C /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 044839441B158E2300E6AA0C /* libiconv.dylib */; };
+		044839471B158E2D00E6AA0C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044839461B158E2D00E6AA0C /* SystemConfiguration.framework */; };
+		044839491B158E3700E6AA0C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044839481B158E3700E6AA0C /* CoreGraphics.framework */; };
+		0448394B1B158E4900E6AA0C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0448394A1B158E4900E6AA0C /* libsqlite3.dylib */; };
+		0448394D1B158E5500E6AA0C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0448394C1B158E5500E6AA0C /* CoreTelephony.framework */; };
+		0448394F1B158E7000E6AA0C /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0448394E1B158E7000E6AA0C /* libstdc++.dylib */; };
+		044839511B158E7B00E6AA0C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 044839501B158E7B00E6AA0C /* libz.dylib */; };
+		044839521B158EB900E6AA0C /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 044839401B158DED00E6AA0C /* TencentOpenApi_IOS_Bundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,16 @@
 		0448392E1B158CDF00E6AA0C /* QQ第三方登录Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QQ第三方登录Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044839331B158CDF00E6AA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044839341B158CDF00E6AA0C /* QQ_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QQ_____Tests.m"; sourceTree = "<group>"; };
+		0448393E1B158D9100E6AA0C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		044839401B158DED00E6AA0C /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = ../iOS_OpenSDK_2.9.0.91_all/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		044839411B158DED00E6AA0C /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = ../iOS_OpenSDK_2.9.0.91_all/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		044839441B158E2300E6AA0C /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		044839461B158E2D00E6AA0C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		044839481B158E3700E6AA0C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0448394A1B158E4900E6AA0C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0448394C1B158E5500E6AA0C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0448394E1B158E7000E6AA0C /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		044839501B158E7B00E6AA0C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +68,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044839511B158E7B00E6AA0C /* libz.dylib in Frameworks */,
+				0448394F1B158E7000E6AA0C /* libstdc++.dylib in Frameworks */,
+				0448394D1B158E5500E6AA0C /* CoreTelephony.framework in Frameworks */,
+				0448394B1B158E4900E6AA0C /* libsqlite3.dylib in Frameworks */,
+				044839491B158E3700E6AA0C /* CoreGraphics.framework in Frameworks */,
+				044839471B158E2D00E6AA0C /* SystemConfiguration.framework in Frameworks */,
+				044839451B158E2300E6AA0C /* libiconv.dylib in Frameworks */,
+				044839421B158DED00E6AA0C /* TencentOpenApi_IOS_Bundle.bundle in Frameworks */,
+				044839431B158DED00E6AA0C /* TencentOpenAPI.framework in Frameworks */,
+				0448393F1B158D9100E6AA0C /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 		0448390C1B158CDF00E6AA0C = {
 			isa = PBXGroup;
 			children = (
+				044839531B1591BF00E6AA0C /* Lib */,
 				044839171B158CDF00E6AA0C /* QQ第三方登录 */,
 				044839311B158CDF00E6AA0C /* QQ第三方登录Tests */,
 				044839161B158CDF00E6AA0C /* Products */,
@@ -117,6 +149,23 @@
 				044839331B158CDF00E6AA0C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044839531B1591BF00E6AA0C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				044839501B158E7B00E6AA0C /* libz.dylib */,
+				0448394E1B158E7000E6AA0C /* libstdc++.dylib */,
+				0448394C1B158E5500E6AA0C /* CoreTelephony.framework */,
+				0448394A1B158E4900E6AA0C /* libsqlite3.dylib */,
+				044839481B158E3700E6AA0C /* CoreGraphics.framework */,
+				044839461B158E2D00E6AA0C /* SystemConfiguration.framework */,
+				044839441B158E2300E6AA0C /* libiconv.dylib */,
+				044839401B158DED00E6AA0C /* TencentOpenApi_IOS_Bundle.bundle */,
+				044839411B158DED00E6AA0C /* TencentOpenAPI.framework */,
+				0448393E1B158D9100E6AA0C /* Security.framework */,
+			);
+			name = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044839521B158EB900E6AA0C /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				044839241B158CDF00E6AA0C /* Main.storyboard in Resources */,
 				044839291B158CDF00E6AA0C /* LaunchScreen.xib in Resources */,
 				044839261B158CDF00E6AA0C /* Images.xcassets in Resources */,
@@ -349,8 +399,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mac/Desktop/iOS_OpenSDK_2.9.0.91_all,
+				);
 				INFOPLIST_FILE = "QQ第三方登录/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-fobjc-arc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,8 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mac/Desktop/iOS_OpenSDK_2.9.0.91_all,
+				);
 				INFOPLIST_FILE = "QQ第三方登录/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-fobjc-arc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
